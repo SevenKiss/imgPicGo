@@ -8,4 +8,11 @@ https://cdn.jsdelivr.net/gh/SevenKiss/imgPicGo/
 
 ## 示例
 ![](https://cdn.jsdelivr.net/gh/SevenKiss/imgPicGo/image/20200704023823.jpg)
-![](https://cdn.jsdelivr.net/gh/SevenKiss/imgPicGo/2020/06/04/20200804005455.jpg)
+
+> 配置切换使用的git账户
+~~~git
+$ cd .git # 进入项目下.git目录
+$ git config user.name "xxxxxxx"
+$ git config user.email "xxxxxxx"
+$ git config --list # 验证
+~~~
